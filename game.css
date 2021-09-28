@@ -1,0 +1,77 @@
+img {
+	margin : 10 0 0 10;
+}
+
+
+body{
+    /* background-image: url(resources/pacman.gif); */
+    background-image: url(resources/tenor.gif);
+    background-size:cover;
+    /* margin: 0px */
+}
+
+/* id do score, setando espaçamento e tipo de fonte */
+#score{
+	margin: 0 0 0 500px;
+	font-size: 25px;
+    font-family: monospace;
+    color: #FFFFFF;
+}
+
+/* id do conteúdo das imagens e score, para centraliza-lo dentro da div geral(main) */
+#game{
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: blueviolet;
+}
+
+/* classe da div geral, para centralizar o conteúdo */
+.main{
+    padding: center;
+    width:860px;
+    height:920px;
+    margin:0 auto;
+}
+
+/* classe da div que encaixa o conteudo (imagens, botão e score) */
+.box {
+    /* width: 900px;
+    height: 900px;
+    background: #000; */
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* padding: center;
+    width:860px;
+    height:700px;
+    margin:100px; */
+    background-color: rgb(13, 31, 190);
+}
+
+
+/* classes do botão, estilização e estilização de ação */
+.button_game {
+    background: -moz-linear-gradient(center top , #EDEDED 5%, #DFDFDF 100%) repeat scroll 0 0 #EDEDED;
+    border: 1px solid #DCDCDC;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px 0 0 #FFFFFF inset;
+    color: #777777;
+    display: inline-block;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #FFFFFF;
+}
+.button_game:hover {
+    background: -moz-linear-gradient(center top , #DFDFDF 5%, #EDEDED 100%) repeat scroll 0 0 #DFDFDF;
+}
+.button_game:active {
+    position: relative;
+    top: 1px;
+}
+
