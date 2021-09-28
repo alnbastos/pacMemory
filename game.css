@@ -1,5 +1,7 @@
 img {
 	margin : 10 0 0 10;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 
@@ -20,35 +22,27 @@ body{
 
 /* id do conteúdo das imagens e score, para centraliza-lo dentro da div geral(main) */
 #game{
-    display: block;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
     background-color: blueviolet;
 }
 
 /* classe da div geral, para centralizar o conteúdo */
 .main{
     padding: center;
-    width:860px;
-    height:920px;
-    margin:0 auto;
+    width: 860px;
+    height: 920px;
+    margin: 0 auto;
+    background-color: #000;
 }
 
 /* classe da div que encaixa o conteudo (imagens, botão e score) */
 .box {
     /* width: 900px;
-    height: 900px;
-    background: #000; */
-
+    height: 900px; */
     display: block;
     margin-left: auto;
     margin-right: auto;
-
-    /* padding: center;
-    width:860px;
-    height:700px;
-    margin:100px; */
-    background-color: rgb(13, 31, 190);
 }
 
 
