@@ -6,15 +6,13 @@ img {
 
 
 body{
-    /* background-image: url(resources/pacman.gif); */
-    background-image: url(resources/tenor.gif);
+    background-image: url(resources/pac.gif);
     background-size:cover;
-    /* margin: 0px */
 }
 
 /* id do score, setando espaçamento e tipo de fonte */
 #score{
-	margin: 0 0 0 500px;
+	margin: 10px 0 0 600px;
 	font-size: 25px;
     font-family: monospace;
     color: #FFFFFF;
@@ -24,22 +22,21 @@ body{
 #game{
     margin-left: 40px;
     margin-right: 40px;
-    background-color: blueviolet;
+    margin-top: 70px;
 }
 
 /* classe da div geral, para centralizar o conteúdo */
 .main{
     padding: center;
     width: 860px;
-    height: 920px;
-    margin: 0 auto;
+    height: 720px;
+    margin: 120px auto;
+    /* margin: 0 auto; */
     background-color: #000;
 }
 
 /* classe da div que encaixa o conteudo (imagens, botão e score) */
 .box {
-    /* width: 900px;
-    height: 900px; */
     display: block;
     margin-left: auto;
     margin-right: auto;
