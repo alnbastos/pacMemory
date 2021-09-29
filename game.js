@@ -12,9 +12,11 @@ function ScoreBoardGameControl (){
 	}
 
 	this.incrementScore =  function (){
+		var audio = new Audio('resources/vitoria.mp3');
 		corrects++;
 		score += POINT_GAME;
 		if (corrects ==  TOTAL_CORRECT){
+			audio.play();
 			alert("Fim de Jogo! Seu Score foi " + score);
 		}
 	}
